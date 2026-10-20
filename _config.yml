@@ -1,0 +1,35 @@
+
+title: "Jeremy Zhao"
+subtitle: "Economics & Data Science"
+description: "Personal portfolio of Jeremy Zhao"
+
+url: "https://jjzhao12.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "air"
+
+locale: "en-US"
+search: false
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Jeremy Zhao"
+  bio: "Economics & Data Science | University of Chicago"
+  location: "Chicago, IL"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jjzhao12"
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
